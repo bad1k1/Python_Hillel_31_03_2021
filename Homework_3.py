@@ -6,14 +6,14 @@ print(new_value)
 
 ###################################exercise_2
 
-value = 1000
-new_value = value = 1 if value < 100 else - 0
+value = 10
+new_value = 1 if value < 100 else 0
 print(new_value)
 
 ###################################exercise_3
 
-value = 1000
-new_value = value < 100 if value else - 0
+value = 104
+new_value = "True" if value < 100 else "False"
 print(new_value)
 
 ###################################exercise_4
