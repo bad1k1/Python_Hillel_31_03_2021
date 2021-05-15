@@ -46,3 +46,11 @@ for symb_1 in my_string:
     for symb_2 in my_string:
         new_string.append(int(symb_1 + symb_2))
 print(new_string)
+
+price_list = [{"name": "John", "age": 15},
+           {"name": "Jack", "age": 45}]
+min_value_list = []
+for price in price_list:
+    min_value_list.append(list(price.values())[0])
+min_value = max(min_value_list)
+print(min_value)
