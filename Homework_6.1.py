@@ -6,52 +6,52 @@
 # # Задание сделать с использованием enumerate или range.
 #
 #
-# my_list = ["asd", "ydda", "ds", "ywq", "jsdqef", "andq", "fosta", "2ddsa1"]
-# result = []
-# for index, value in enumerate(my_list):
-#     if index % 2:
-#         value = value[::-1]
-#     result.append(value)
-# print(result)
-#
+my_list = ["asd", "ydda", "ds", "ywq", "jsdqef", "andq", "fosta", "2ddsa1"]
+result = []
+for index, value in enumerate(my_list):
+    if index % 2:
+        value = value[::-1]
+    result.append(value)
+print(result)
+
 # # 2. Дан список строк my_list. Создать новый список в который поместить
 # # элементы из my_list у которых первый символ - буква "a".
 #
-# my_list = ["asd", "ydda", "ds", "ywq", "jsdqef", "andq", "fosta", "ddsa"]
-# result = []
-# for symbol in my_list:
-#     if symbol.startswith("a"):
-#         result.append(symbol)
-# print(result)
+my_list = ["asd", "ydda", "ds", "ywq", "jsdqef", "andq", "fosta", "ddsa"]
+result = []
+for symbol in my_list:
+    if symbol.startswith("a"):
+        result.append(symbol)
+print(result)
 #
 # # 3. Дан список строк my_list. Создать новый список в который поместить
 # # элементы из my_list в которых есть символ - буква "a" на любом месте.
 #
 #
-# my_list = ["asd", "ydda", "ds", "ywq", "jsdqef", "andq", "fosta", "ddsa"]
-# result = []
-# for symbol in my_list:
-#     if symbol.__contains__("a"):
-#         result.append(symbol)
-# print(result)
+my_list = ["asd", "ydda", "ds", "ywq", "jsdqef", "andq", "fosta", "ddsa"]
+result = []
+for symbol in my_list:
+    if symbol.__contains__("a"):
+        result.append(symbol)
+print(result)
 #
 #
 # # 4. Дан список my_list в котором могут быть как строки (type str) так и целые числа (type int).
 # # Создать новый список в который поместить только строки из my_list.
 #
-# my_list = ["asd", "ydda", 32, "ds", "ywq", 543, "jsdqef", 17, "andq", "fosta", "ddsa"]
-# result = [value for value in my_list if type(value) == str]
-# print(result)
+my_list = ["asd", "ydda", 32, "ds", "ywq", 543, "jsdqef", 17, "andq", "fosta", "ddsa"]
+result = [value for value in my_list if type(value) == str]
+print(result)
 #
 # # 5. Дана строка my_str. Создать список в который поместить те символы из my_str,
 # # которые встречаются в строке только один раз.
-# my_str = "у лукоморья дуб зеленый, златая цепь на дубе том и днем и ночью кот ученый"
-# my_set = set(my_str)
-# my_list = []
-# for letter in my_set:
-#     if my_str.count(letter) == 1:
-#         my_list.append(letter)
-# print(my_list)
+my_str = "у лукоморья дуб зеленый, златая цепь на дубе том и днем и ночью кот ученый"
+my_set = set(my_str)
+my_list = []
+for letter in my_set:
+    if my_str.count(letter) == 1:
+        my_list.append(letter)
+print(my_list)
 
 
 # 6. Даны две строки. Создать список в который поместить те символы,
@@ -82,13 +82,13 @@ print(my_list)
 
 
 
-# my_str = "у лукоморья дуб зеленый, златая цепь на дубе том и днем и ночью кот ученый"
-# my_set = set(my_str)
-# my_list = []
-# for letter in my_set:
-#     if my_str.count(letter) == 1:
-#         my_list.append(letter)
-# print(my_list)
+my_str = "у лукоморья дуб зеленый, златая цепь на дубе том и днем и ночью кот ученый"
+my_set = set(my_str)
+my_list = []
+for letter in my_set:
+    if my_str.count(letter) == 1:
+        my_list.append(letter)
+print(my_list)
 
 
 # # 8. Описать с помощью словаря следующую структуру для конкретного человека (можно придумать):
