@@ -34,3 +34,15 @@ def sort_by_years(dict1):
 def sort_len_text(data_list):
     info_text = data_list.get("text")
     return len(info_text)
+
+
+
+
+
+
+
+
+
+
+
+
